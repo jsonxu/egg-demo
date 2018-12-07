@@ -1,0 +1,26 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "egg demo项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonxu/egg-demo.git"
+  },
+  "author": "json",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsonxu/egg-demo/issues"
+  },
+  "homepage": "https://github.com/jsonxu/egg-demo#readme",
+  "dependencies": {
+    "egg": "^2.14.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0"
+  }
+}
