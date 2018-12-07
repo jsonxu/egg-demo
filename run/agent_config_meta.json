@@ -26,7 +26,7 @@
       "value": "/Users/json/product/egg-demo/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/json/product/egg-demo/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/json/product/egg-demo/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/json/product/egg-demo/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/json/product/egg-demo/node_modules/egg-security/config/config.default.js"
     },
@@ -80,7 +80,7 @@
     "cookieMaxAge": "/Users/json/product/egg-demo/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/json/product/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/json/product/egg-demo/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/Users/json/product/egg-demo/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/json/product/egg-demo/node_modules/egg-watcher/config/config.default.js"
@@ -108,13 +108,6 @@
       "cron": "/Users/json/product/egg-demo/node_modules/egg-multipart/config/config.default.js"
     }
   },
-  "development": {
-    "watchDirs": "/Users/json/product/egg-demo/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/json/product/egg-demo/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/json/product/egg-demo/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/json/product/egg-demo/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/json/product/egg-demo/node_modules/egg-development/config/config.default.js"
-  },
   "logrotator": {
     "filesRotateByHour": "/Users/json/product/egg-demo/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/json/product/egg-demo/node_modules/egg-logrotator/config/config.default.js",
@@ -129,12 +122,13 @@
     "dir": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js"
+    "buffer": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/json/product/egg-demo/node_modules/egg-static/config/config.prod.js"
   },
   "view": {
     "root": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/json/product/egg-demo/node_modules/egg-view/config/config.default.js"
@@ -233,9 +227,7 @@
     "coreLogName": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/json/product/egg-demo/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
   },
   "httpclient": {

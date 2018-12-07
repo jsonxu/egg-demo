@@ -83,7 +83,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/Users/json/product/egg-demo/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/json/product/egg-demo/node_modules/egg-watcher/lib/event-sources/development"
@@ -92,7 +92,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/json/product/egg-demo/logs/demo/egg-schedule.log"
+        "file": "/Users/json/logs/demo/egg-schedule.log"
       }
     },
     "multipart": {
@@ -111,13 +111,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -132,17 +125,18 @@
       "dir": "/Users/json/product/egg-demo/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
       "root": "/Users/json/product/egg-demo/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "env": "local",
+    "env": "prod",
     "name": "demo",
     "keys": "<String len: 23>",
     "proxy": false,
@@ -156,7 +150,7 @@
       "private": true,
       "dependencies": {
         "egg": "^2.2.1",
-        "egg-scripts": "^2.5.0"
+        "egg-scripts": "^2.10.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -225,21 +219,19 @@
       }
     },
     "logger": {
-      "dir": "/Users/json/product/egg-demo/logs/demo",
+      "dir": "/Users/json/logs/demo",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "demo-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -389,21 +381,6 @@
       "from": "/Users/json/product/egg-demo/node_modules/egg/config/plugin.js",
       "path": "/Users/json/product/egg-demo/node_modules/egg-multipart",
       "version": "2.3.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/json/product/egg-demo/node_modules/egg/config/plugin.js",
-      "path": "/Users/json/product/egg-demo/node_modules/egg-development",
-      "version": "2.4.1"
     },
     "logrotator": {
       "enable": true,
