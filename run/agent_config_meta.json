@@ -1,4 +1,6 @@
 {
+  "keys": "/Users/json/product/egg-demo/config/config.default.js",
+  "middleware": "/Users/json/product/egg-demo/config/config.default.js",
   "session": {
     "maxAge": "/Users/json/product/egg-demo/node_modules/egg-session/config/config.default.js",
     "key": "/Users/json/product/egg-demo/node_modules/egg-session/config/config.default.js",
@@ -139,7 +141,6 @@
   },
   "env": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
   "name": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-  "keys": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
   "proxy": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
   "protocolHeaders": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
   "ipHeaders": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
@@ -148,27 +149,45 @@
     "name": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
     "version": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
     "description": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-    "main": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
+    },
     "scripts": {
+      "start": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
       "test": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-      "dev": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
+      "test-local": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
     },
     "repository": {
       "type": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
       "url": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
     },
     "author": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-    "license": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-    "bugs": {
-      "url": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
-    },
-    "homepage": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
-    "dependencies": {
-      "egg": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
-    },
-    "devDependencies": {
-      "egg-bin": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
-    }
+    "license": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js"
   },
   "baseDir": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
   "HOME": "/Users/json/product/egg-demo/node_modules/egg/config/config.default.js",
